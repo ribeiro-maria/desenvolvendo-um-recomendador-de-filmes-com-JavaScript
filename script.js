@@ -5,7 +5,7 @@ let campoAventura;
 
 function setup() {
   createCanvas(800, 400);
-  createElement("h2", "@rasinformática");
+  createElement("h2", "maria");
   createSpan("Sua idade:");
   campoIdade = createInput("5");
   campoFantasia = createCheckbox("Gosta de filmes com Qi alto?");
@@ -28,11 +28,11 @@ function draw() {
 function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
   if (idade >= 10) {
     if (idade >= 14) {
-      return "Rafael, Fabiula, Maria Helena, Isabel";
+      return "maria, gustavo, rafaela";
     } else {
       if (idade >= 12) {
         if(gostaDeFantasia || gostaDeAventura) {
-          return "Github-professor-rafael";          
+          return "Github-maria";          
         } else{
          return "Programando com html e css";
         }
