@@ -46,7 +46,7 @@ function geraRecomendacao(idade, gostaDeFantasia, gostaDeAventura) {
     }
   } else {
     if (gostaDeFantasia) {
-      return "@rasinformática";
+      return "Maria Clara";
     } else {
       return "Todo Hacker tem um início";
     }
